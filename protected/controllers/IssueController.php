@@ -1,5 +1,6 @@
 <?php
 
+
 class IssueController extends Controller {
 
     private $_project = NULL;
