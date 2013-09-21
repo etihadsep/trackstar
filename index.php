@@ -1,4 +1,5 @@
 <?php
+date_default_timezone_set('Asia/Ho_Chi_Minh');
 require_once dirname(__FILE__).'/protected/lib/FirePHPCore/FirePHP.class.php';
 
 $firephp = FirePHP::getInstance(true);
