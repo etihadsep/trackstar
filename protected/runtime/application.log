@@ -420,3 +420,804 @@ Stack trace:
 REQUEST_URI=/trackstar/index.php?r=user/create
 HTTP_REFERER=http://localhost/trackstar/index.php?r=user/create
 ---
+2013/09/22 04:46:14 [error] [exception.CException] exception 'CException' with message 'Property "CConsoleApplication.authManager" is not defined.' in D:\wamp\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\wamp\www\yii\framework\base\CModule.php(105): CComponent->__get('authManager')
+#1 D:\wamp\www\trackstar\protected\commands\RbacCommand.php(121): CModule->__get('authManager')
+#2 D:\wamp\www\trackstar\protected\commands\RbacCommand.php(20): RbacCommand->ensureAuthManagerDefined()
+#3 [internal function]: RbacCommand->actionIndex()
+#4 D:\wamp\www\yii\framework\console\CConsoleCommand.php(172): ReflectionMethod->invokeArgs(Object(RbacCommand), Array)
+#5 D:\wamp\www\yii\framework\console\CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#6 D:\wamp\www\yii\framework\console\CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#7 D:\wamp\www\yii\framework\base\CApplication.php(180): CConsoleApplication->processRequest()
+#8 D:\wamp\www\yii\framework\yiic.php(33): CApplication->run()
+#9 D:\wamp\www\trackstar\protected\yiic.php(7): require_once('D:\wamp\www\yii...')
+#10 {main}
+---
+2013/09/22 04:46:44 [error] [exception.CException] exception 'CException' with message 'Property "CConsoleApplication.authManager" is not defined.' in D:\wamp\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\wamp\www\yii\framework\base\CModule.php(105): CComponent->__get('authManager')
+#1 D:\wamp\www\trackstar\protected\commands\RbacCommand.php(121): CModule->__get('authManager')
+#2 D:\wamp\www\trackstar\protected\commands\RbacCommand.php(20): RbacCommand->ensureAuthManagerDefined()
+#3 [internal function]: RbacCommand->actionIndex()
+#4 D:\wamp\www\yii\framework\console\CConsoleCommand.php(172): ReflectionMethod->invokeArgs(Object(RbacCommand), Array)
+#5 D:\wamp\www\yii\framework\console\CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#6 D:\wamp\www\yii\framework\console\CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#7 D:\wamp\www\yii\framework\base\CApplication.php(180): CConsoleApplication->processRequest()
+#8 D:\wamp\www\yii\framework\yiic.php(33): CApplication->run()
+#9 D:\wamp\www\trackstar\protected\yiic.php(7): require_once('D:\wamp\www\yii...')
+#10 {main}
+---
+2013/09/22 04:47:35 [error] [exception.CException] exception 'CException' with message 'Property "CConsoleApplication.authManager" is not defined.' in D:\wamp\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\wamp\www\yii\framework\base\CModule.php(105): CComponent->__get('authManager')
+#1 D:\wamp\www\trackstar\protected\commands\RbacCommand.php(121): CModule->__get('authManager')
+#2 D:\wamp\www\trackstar\protected\commands\RbacCommand.php(20): RbacCommand->ensureAuthManagerDefined()
+#3 [internal function]: RbacCommand->actionIndex()
+#4 D:\wamp\www\yii\framework\console\CConsoleCommand.php(172): ReflectionMethod->invokeArgs(Object(RbacCommand), Array)
+#5 D:\wamp\www\yii\framework\console\CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#6 D:\wamp\www\yii\framework\console\CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#7 D:\wamp\www\yii\framework\base\CApplication.php(180): CConsoleApplication->processRequest()
+#8 D:\wamp\www\yii\framework\yiic.php(33): CApplication->run()
+#9 D:\wamp\www\trackstar\protected\yiic.php(7): require_once('D:\wamp\www\yii...')
+#10 {main}
+---
+2013/09/22 04:47:38 [error] [exception.CException] exception 'CException' with message 'Property "CConsoleApplication.authManager" is not defined.' in D:\wamp\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\wamp\www\yii\framework\base\CModule.php(105): CComponent->__get('authManager')
+#1 D:\wamp\www\trackstar\protected\commands\RbacCommand.php(121): CModule->__get('authManager')
+#2 D:\wamp\www\trackstar\protected\commands\RbacCommand.php(20): RbacCommand->ensureAuthManagerDefined()
+#3 [internal function]: RbacCommand->actionIndex()
+#4 D:\wamp\www\yii\framework\console\CConsoleCommand.php(172): ReflectionMethod->invokeArgs(Object(RbacCommand), Array)
+#5 D:\wamp\www\yii\framework\console\CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#6 D:\wamp\www\yii\framework\console\CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#7 D:\wamp\www\yii\framework\base\CApplication.php(180): CConsoleApplication->processRequest()
+#8 D:\wamp\www\yii\framework\yiic.php(33): CApplication->run()
+#9 D:\wamp\www\trackstar\protected\yiic.php(7): require_once('D:\wamp\www\yii...')
+#10 {main}
+---
+2013/09/22 04:49:05 [error] [system.db.CDbCommand] Error in preparing SQL: DELETE FROM 'tbl_auth_assignment'
+2013/09/22 04:49:05 [error] [system.db.CDbCommand] CDbCommand::execute() failed: CDbCommand failed to prepare the SQL statement: SQLSTATE[HY000]: General error: 1 no such table: tbl_auth_assignment. The SQL statement executed was: DELETE FROM 'tbl_auth_assignment'.
+2013/09/22 04:49:05 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: CDbCommand failed to prepare the SQL statement: SQLSTATE[HY000]: General error: 1 no such table: tbl_auth_assignment. The SQL statement executed was: DELETE FROM 'tbl_auth_assignment'' in D:\wamp\www\yii\framework\db\CDbCommand.php:358
+Stack trace:
+#0 D:\wamp\www\yii\framework\db\CDbCommand.php(1302): CDbCommand->execute(Array)
+#1 D:\wamp\www\yii\framework\web\auth\CDbAuthManager.php(560): CDbCommand->delete('tbl_auth_assign...')
+#2 D:\wamp\www\yii\framework\web\auth\CDbAuthManager.php(550): CDbAuthManager->clearAuthAssignments()
+#3 D:\wamp\www\trackstar\protected\commands\RbacCommand.php(36): CDbAuthManager->clearAll()
+#4 [internal function]: RbacCommand->actionIndex()
+#5 D:\wamp\www\yii\framework\console\CConsoleCommand.php(172): ReflectionMethod->invokeArgs(Object(RbacCommand), Array)
+#6 D:\wamp\www\yii\framework\console\CConsoleCommandRunner.php(71): CConsoleCommand->run(Array)
+#7 D:\wamp\www\yii\framework\console\CConsoleApplication.php(92): CConsoleCommandRunner->run(Array)
+#8 D:\wamp\www\yii\framework\base\CApplication.php(180): CConsoleApplication->processRequest()
+#9 D:\wamp\www\yii\framework\yiic.php(33): CApplication->run()
+#10 D:\wamp\www\trackstar\protected\yiic.php(7): require_once('D:\wamp\www\yii...')
+#11 {main}
+---
+2013/09/22 17:13:26 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\wamp\www\trackstar\protected\controllers\ProjectController.php:31
+Stack trace:
+#0 [internal function]: ProjectController->actionAdduser('1')
+#1 D:\wamp\www\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(ProjectController), Array)
+#2 D:\wamp\www\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProjectController), Object(ReflectionMethod), Array)
+#3 D:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\wamp\www\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 D:\wamp\www\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 D:\wamp\www\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 D:\wamp\www\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 D:\wamp\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 D:\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#10 D:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('adduser')
+#12 D:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('project/adduser')
+#13 D:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 D:\wamp\www\trackstar\index.php(17): CApplication->run()
+#15 {main}
+REQUEST_URI=/trackstar/index.php?r=project/adduser&id=1
+HTTP_REFERER=http://localhost/trackstar/index.php?r=project/view&id=1
+---
+2013/09/22 17:16:34 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\wamp\www\trackstar\protected\controllers\ProjectController.php:31
+Stack trace:
+#0 [internal function]: ProjectController->actionAdduser('1')
+#1 D:\wamp\www\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(ProjectController), Array)
+#2 D:\wamp\www\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProjectController), Object(ReflectionMethod), Array)
+#3 D:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\wamp\www\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 D:\wamp\www\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 D:\wamp\www\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 D:\wamp\www\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 D:\wamp\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 D:\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#10 D:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('adduser')
+#12 D:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('project/adduser')
+#13 D:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 D:\wamp\www\trackstar\index.php(17): CApplication->run()
+#15 {main}
+REQUEST_URI=/trackstar/index.php?r=project/adduser&id=1
+HTTP_REFERER=http://localhost/trackstar/index.php?r=project/view&id=1
+---
+2013/09/22 17:16:55 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\wamp\www\trackstar\protected\controllers\ProjectController.php:31
+Stack trace:
+#0 [internal function]: ProjectController->actionAdduser('1')
+#1 D:\wamp\www\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(ProjectController), Array)
+#2 D:\wamp\www\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProjectController), Object(ReflectionMethod), Array)
+#3 D:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\wamp\www\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 D:\wamp\www\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 D:\wamp\www\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 D:\wamp\www\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 D:\wamp\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 D:\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#10 D:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('adduser')
+#12 D:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('project/adduser')
+#13 D:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 D:\wamp\www\trackstar\index.php(17): CApplication->run()
+#15 {main}
+REQUEST_URI=/trackstar/index.php?r=project/adduser&id=1
+HTTP_REFERER=http://localhost/trackstar/index.php?r=project/view&id=1
+---
+2013/09/22 17:18:46 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\wamp\www\trackstar\protected\controllers\ProjectController.php:31
+Stack trace:
+#0 [internal function]: ProjectController->actionAdduser('1')
+#1 D:\wamp\www\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(ProjectController), Array)
+#2 D:\wamp\www\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProjectController), Object(ReflectionMethod), Array)
+#3 D:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\wamp\www\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 D:\wamp\www\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 D:\wamp\www\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 D:\wamp\www\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 D:\wamp\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 D:\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#10 D:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('adduser')
+#12 D:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('project/adduser')
+#13 D:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 D:\wamp\www\trackstar\index.php(17): CApplication->run()
+#15 {main}
+REQUEST_URI=/trackstar/index.php?r=project/adduser&id=1
+HTTP_REFERER=http://localhost/trackstar/index.php?r=project/view&id=1
+---
+2013/09/22 17:18:47 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\wamp\www\trackstar\protected\controllers\ProjectController.php:31
+Stack trace:
+#0 [internal function]: ProjectController->actionAdduser('1')
+#1 D:\wamp\www\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(ProjectController), Array)
+#2 D:\wamp\www\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProjectController), Object(ReflectionMethod), Array)
+#3 D:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\wamp\www\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 D:\wamp\www\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 D:\wamp\www\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 D:\wamp\www\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 D:\wamp\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 D:\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#10 D:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('adduser')
+#12 D:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('project/adduser')
+#13 D:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 D:\wamp\www\trackstar\index.php(17): CApplication->run()
+#15 {main}
+REQUEST_URI=/trackstar/index.php?r=project/adduser&id=1
+HTTP_REFERER=http://localhost/trackstar/index.php?r=project/view&id=1
+---
+2013/09/22 17:19:30 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\wamp\www\trackstar\protected\controllers\ProjectController.php:31
+Stack trace:
+#0 [internal function]: ProjectController->actionAdduser('1')
+#1 D:\wamp\www\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(ProjectController), Array)
+#2 D:\wamp\www\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProjectController), Object(ReflectionMethod), Array)
+#3 D:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\wamp\www\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 D:\wamp\www\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 D:\wamp\www\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 D:\wamp\www\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 D:\wamp\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 D:\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#10 D:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('adduser')
+#12 D:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('project/adduser')
+#13 D:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 D:\wamp\www\trackstar\index.php(17): CApplication->run()
+#15 {main}
+REQUEST_URI=/trackstar/index.php?r=project/adduser&id=1
+HTTP_REFERER=http://localhost/trackstar/index.php?r=project/view&id=1
+---
+2013/09/22 17:19:31 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\wamp\www\trackstar\protected\controllers\ProjectController.php:31
+Stack trace:
+#0 [internal function]: ProjectController->actionAdduser('1')
+#1 D:\wamp\www\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(ProjectController), Array)
+#2 D:\wamp\www\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProjectController), Object(ReflectionMethod), Array)
+#3 D:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\wamp\www\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 D:\wamp\www\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 D:\wamp\www\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 D:\wamp\www\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 D:\wamp\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 D:\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#10 D:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('adduser')
+#12 D:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('project/adduser')
+#13 D:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 D:\wamp\www\trackstar\index.php(17): CApplication->run()
+#15 {main}
+REQUEST_URI=/trackstar/index.php?r=project/adduser&id=1
+HTTP_REFERER=http://localhost/trackstar/index.php?r=project/view&id=1
+---
+2013/09/22 17:19:32 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\wamp\www\trackstar\protected\controllers\ProjectController.php:31
+Stack trace:
+#0 [internal function]: ProjectController->actionAdduser('1')
+#1 D:\wamp\www\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(ProjectController), Array)
+#2 D:\wamp\www\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProjectController), Object(ReflectionMethod), Array)
+#3 D:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\wamp\www\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 D:\wamp\www\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 D:\wamp\www\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 D:\wamp\www\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 D:\wamp\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 D:\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#10 D:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('adduser')
+#12 D:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('project/adduser')
+#13 D:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 D:\wamp\www\trackstar\index.php(17): CApplication->run()
+#15 {main}
+REQUEST_URI=/trackstar/index.php?r=project/adduser&id=1
+HTTP_REFERER=http://localhost/trackstar/index.php?r=project/view&id=1
+---
+2013/09/22 17:19:51 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\wamp\www\trackstar\protected\controllers\ProjectController.php:31
+Stack trace:
+#0 [internal function]: ProjectController->actionAdduser('1')
+#1 D:\wamp\www\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(ProjectController), Array)
+#2 D:\wamp\www\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProjectController), Object(ReflectionMethod), Array)
+#3 D:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\wamp\www\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 D:\wamp\www\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 D:\wamp\www\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 D:\wamp\www\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 D:\wamp\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 D:\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#10 D:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('adduser')
+#12 D:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('project/adduser')
+#13 D:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 D:\wamp\www\trackstar\index.php(17): CApplication->run()
+#15 {main}
+REQUEST_URI=/trackstar/index.php?r=project/adduser&id=1
+HTTP_REFERER=http://localhost/trackstar/index.php?r=project/view&id=1
+---
+2013/09/22 17:24:42 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\wamp\www\trackstar\protected\controllers\ProjectController.php:32
+Stack trace:
+#0 [internal function]: ProjectController->actionAdduser('1')
+#1 D:\wamp\www\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(ProjectController), Array)
+#2 D:\wamp\www\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProjectController), Object(ReflectionMethod), Array)
+#3 D:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\wamp\www\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 D:\wamp\www\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 D:\wamp\www\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 D:\wamp\www\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 D:\wamp\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 D:\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#10 D:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('adduser')
+#12 D:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('project/adduser')
+#13 D:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 D:\wamp\www\trackstar\index.php(17): CApplication->run()
+#15 {main}
+REQUEST_URI=/trackstar/index.php?r=project/adduser&id=1
+HTTP_REFERER=http://localhost/trackstar/index.php?r=project/view&id=1
+---
+2013/09/22 17:27:31 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\wamp\www\trackstar\protected\controllers\ProjectController.php:32
+Stack trace:
+#0 [internal function]: ProjectController->actionAdduser('1')
+#1 D:\wamp\www\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(ProjectController), Array)
+#2 D:\wamp\www\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProjectController), Object(ReflectionMethod), Array)
+#3 D:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\wamp\www\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 D:\wamp\www\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 D:\wamp\www\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 D:\wamp\www\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 D:\wamp\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 D:\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#10 D:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('adduser')
+#12 D:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('project/adduser')
+#13 D:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 D:\wamp\www\trackstar\index.php(17): CApplication->run()
+#15 {main}
+REQUEST_URI=/trackstar/index.php?r=project/adduser&id=1
+HTTP_REFERER=http://localhost/trackstar/index.php?r=project/view&id=1
+---
+2013/09/22 17:27:36 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\wamp\www\trackstar\protected\controllers\ProjectController.php:32
+Stack trace:
+#0 [internal function]: ProjectController->actionAdduser('1')
+#1 D:\wamp\www\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(ProjectController), Array)
+#2 D:\wamp\www\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProjectController), Object(ReflectionMethod), Array)
+#3 D:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\wamp\www\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 D:\wamp\www\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 D:\wamp\www\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 D:\wamp\www\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 D:\wamp\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 D:\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#10 D:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('adduser')
+#12 D:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('project/adduser')
+#13 D:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 D:\wamp\www\trackstar\index.php(17): CApplication->run()
+#15 {main}
+REQUEST_URI=/trackstar/index.php?r=project/adduser&id=1
+HTTP_REFERER=http://localhost/trackstar/index.php?r=project/view&id=1
+---
+2013/09/22 17:27:37 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\wamp\www\trackstar\protected\controllers\ProjectController.php:32
+Stack trace:
+#0 [internal function]: ProjectController->actionAdduser('1')
+#1 D:\wamp\www\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(ProjectController), Array)
+#2 D:\wamp\www\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProjectController), Object(ReflectionMethod), Array)
+#3 D:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\wamp\www\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 D:\wamp\www\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 D:\wamp\www\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 D:\wamp\www\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 D:\wamp\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 D:\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#10 D:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('adduser')
+#12 D:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('project/adduser')
+#13 D:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 D:\wamp\www\trackstar\index.php(17): CApplication->run()
+#15 {main}
+REQUEST_URI=/trackstar/index.php?r=project/adduser&id=1
+HTTP_REFERER=http://localhost/trackstar/index.php?r=project/view&id=1
+---
+2013/09/22 17:27:37 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\wamp\www\trackstar\protected\controllers\ProjectController.php:32
+Stack trace:
+#0 [internal function]: ProjectController->actionAdduser('1')
+#1 D:\wamp\www\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(ProjectController), Array)
+#2 D:\wamp\www\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProjectController), Object(ReflectionMethod), Array)
+#3 D:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\wamp\www\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 D:\wamp\www\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 D:\wamp\www\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 D:\wamp\www\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 D:\wamp\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 D:\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#10 D:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('adduser')
+#12 D:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('project/adduser')
+#13 D:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 D:\wamp\www\trackstar\index.php(17): CApplication->run()
+#15 {main}
+REQUEST_URI=/trackstar/index.php?r=project/adduser&id=1
+HTTP_REFERER=http://localhost/trackstar/index.php?r=project/view&id=1
+---
+2013/09/22 17:27:48 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\wamp\www\trackstar\protected\controllers\ProjectController.php:32
+Stack trace:
+#0 [internal function]: ProjectController->actionAdduser('1')
+#1 D:\wamp\www\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(ProjectController), Array)
+#2 D:\wamp\www\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProjectController), Object(ReflectionMethod), Array)
+#3 D:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\wamp\www\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 D:\wamp\www\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 D:\wamp\www\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 D:\wamp\www\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 D:\wamp\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 D:\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#10 D:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('adduser')
+#12 D:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('project/adduser')
+#13 D:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 D:\wamp\www\trackstar\index.php(17): CApplication->run()
+#15 {main}
+REQUEST_URI=/trackstar/index.php?r=project/adduser&id=1
+HTTP_REFERER=http://localhost/trackstar/index.php?r=project/view&id=1
+---
+2013/09/22 17:27:50 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\wamp\www\trackstar\protected\controllers\ProjectController.php:32
+Stack trace:
+#0 [internal function]: ProjectController->actionAdduser('1')
+#1 D:\wamp\www\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(ProjectController), Array)
+#2 D:\wamp\www\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProjectController), Object(ReflectionMethod), Array)
+#3 D:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\wamp\www\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 D:\wamp\www\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 D:\wamp\www\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 D:\wamp\www\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 D:\wamp\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 D:\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#10 D:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('adduser')
+#12 D:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('project/adduser')
+#13 D:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 D:\wamp\www\trackstar\index.php(17): CApplication->run()
+#15 {main}
+REQUEST_URI=/trackstar/index.php?r=project/adduser&id=1
+HTTP_REFERER=http://localhost/trackstar/index.php?r=project/view&id=1
+---
+2013/09/22 17:27:50 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\wamp\www\trackstar\protected\controllers\ProjectController.php:32
+Stack trace:
+#0 [internal function]: ProjectController->actionAdduser('1')
+#1 D:\wamp\www\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(ProjectController), Array)
+#2 D:\wamp\www\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProjectController), Object(ReflectionMethod), Array)
+#3 D:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\wamp\www\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 D:\wamp\www\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 D:\wamp\www\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 D:\wamp\www\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 D:\wamp\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 D:\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#10 D:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('adduser')
+#12 D:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('project/adduser')
+#13 D:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 D:\wamp\www\trackstar\index.php(17): CApplication->run()
+#15 {main}
+REQUEST_URI=/trackstar/index.php?r=project/adduser&id=1
+HTTP_REFERER=http://localhost/trackstar/index.php?r=project/view&id=1
+---
+2013/09/22 17:27:51 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\wamp\www\trackstar\protected\controllers\ProjectController.php:32
+Stack trace:
+#0 [internal function]: ProjectController->actionAdduser('1')
+#1 D:\wamp\www\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(ProjectController), Array)
+#2 D:\wamp\www\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProjectController), Object(ReflectionMethod), Array)
+#3 D:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\wamp\www\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 D:\wamp\www\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 D:\wamp\www\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 D:\wamp\www\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 D:\wamp\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 D:\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#10 D:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('adduser')
+#12 D:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('project/adduser')
+#13 D:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 D:\wamp\www\trackstar\index.php(17): CApplication->run()
+#15 {main}
+REQUEST_URI=/trackstar/index.php?r=project/adduser&id=1
+HTTP_REFERER=http://localhost/trackstar/index.php?r=project/view&id=1
+---
+2013/09/22 17:31:51 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\wamp\www\trackstar\protected\controllers\ProjectController.php:32
+Stack trace:
+#0 [internal function]: ProjectController->actionAdduser('1')
+#1 D:\wamp\www\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(ProjectController), Array)
+#2 D:\wamp\www\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProjectController), Object(ReflectionMethod), Array)
+#3 D:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\wamp\www\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 D:\wamp\www\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 D:\wamp\www\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 D:\wamp\www\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 D:\wamp\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 D:\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#10 D:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('adduser')
+#12 D:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('project/adduser')
+#13 D:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 D:\wamp\www\trackstar\index.php(17): CApplication->run()
+#15 {main}
+REQUEST_URI=/trackstar/index.php?r=project/adduser&id=1
+HTTP_REFERER=http://localhost/trackstar/index.php?r=project/view&id=1
+---
+2013/09/22 17:31:53 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\wamp\www\trackstar\protected\controllers\ProjectController.php:32
+Stack trace:
+#0 [internal function]: ProjectController->actionAdduser('1')
+#1 D:\wamp\www\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(ProjectController), Array)
+#2 D:\wamp\www\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProjectController), Object(ReflectionMethod), Array)
+#3 D:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\wamp\www\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 D:\wamp\www\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 D:\wamp\www\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 D:\wamp\www\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 D:\wamp\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 D:\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#10 D:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('adduser')
+#12 D:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('project/adduser')
+#13 D:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 D:\wamp\www\trackstar\index.php(17): CApplication->run()
+#15 {main}
+REQUEST_URI=/trackstar/index.php?r=project/adduser&id=1
+HTTP_REFERER=http://localhost/trackstar/index.php?r=project/view&id=1
+---
+2013/09/22 17:31:53 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\wamp\www\trackstar\protected\controllers\ProjectController.php:32
+Stack trace:
+#0 [internal function]: ProjectController->actionAdduser('1')
+#1 D:\wamp\www\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(ProjectController), Array)
+#2 D:\wamp\www\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProjectController), Object(ReflectionMethod), Array)
+#3 D:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\wamp\www\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 D:\wamp\www\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 D:\wamp\www\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 D:\wamp\www\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 D:\wamp\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 D:\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#10 D:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('adduser')
+#12 D:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('project/adduser')
+#13 D:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 D:\wamp\www\trackstar\index.php(17): CApplication->run()
+#15 {main}
+REQUEST_URI=/trackstar/index.php?r=project/adduser&id=1
+HTTP_REFERER=http://localhost/trackstar/index.php?r=project/view&id=1
+---
+2013/09/22 17:31:54 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\wamp\www\trackstar\protected\controllers\ProjectController.php:32
+Stack trace:
+#0 [internal function]: ProjectController->actionAdduser('1')
+#1 D:\wamp\www\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(ProjectController), Array)
+#2 D:\wamp\www\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProjectController), Object(ReflectionMethod), Array)
+#3 D:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\wamp\www\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 D:\wamp\www\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 D:\wamp\www\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 D:\wamp\www\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 D:\wamp\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 D:\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#10 D:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('adduser')
+#12 D:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('project/adduser')
+#13 D:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 D:\wamp\www\trackstar\index.php(17): CApplication->run()
+#15 {main}
+REQUEST_URI=/trackstar/index.php?r=project/adduser&id=1
+HTTP_REFERER=http://localhost/trackstar/index.php?r=project/view&id=1
+---
+2013/09/22 17:31:55 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\wamp\www\trackstar\protected\controllers\ProjectController.php:32
+Stack trace:
+#0 [internal function]: ProjectController->actionAdduser('1')
+#1 D:\wamp\www\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(ProjectController), Array)
+#2 D:\wamp\www\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProjectController), Object(ReflectionMethod), Array)
+#3 D:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\wamp\www\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 D:\wamp\www\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 D:\wamp\www\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 D:\wamp\www\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 D:\wamp\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 D:\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#10 D:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('adduser')
+#12 D:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('project/adduser')
+#13 D:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 D:\wamp\www\trackstar\index.php(17): CApplication->run()
+#15 {main}
+REQUEST_URI=/trackstar/index.php?r=project/adduser&id=1
+HTTP_REFERER=http://localhost/trackstar/index.php?r=project/view&id=1
+---
+2013/09/22 17:31:55 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\wamp\www\trackstar\protected\controllers\ProjectController.php:32
+Stack trace:
+#0 [internal function]: ProjectController->actionAdduser('1')
+#1 D:\wamp\www\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(ProjectController), Array)
+#2 D:\wamp\www\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProjectController), Object(ReflectionMethod), Array)
+#3 D:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\wamp\www\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 D:\wamp\www\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 D:\wamp\www\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 D:\wamp\www\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 D:\wamp\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 D:\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#10 D:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('adduser')
+#12 D:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('project/adduser')
+#13 D:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 D:\wamp\www\trackstar\index.php(17): CApplication->run()
+#15 {main}
+REQUEST_URI=/trackstar/index.php?r=project/adduser&id=1
+HTTP_REFERER=http://localhost/trackstar/index.php?r=project/view&id=1
+---
+2013/09/22 17:34:21 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\wamp\www\trackstar\protected\controllers\ProjectController.php:32
+Stack trace:
+#0 [internal function]: ProjectController->actionAdduser('1')
+#1 D:\wamp\www\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(ProjectController), Array)
+#2 D:\wamp\www\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProjectController), Object(ReflectionMethod), Array)
+#3 D:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\wamp\www\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 D:\wamp\www\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 D:\wamp\www\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 D:\wamp\www\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 D:\wamp\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 D:\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#10 D:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('adduser')
+#12 D:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('project/adduser')
+#13 D:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 D:\wamp\www\trackstar\index.php(17): CApplication->run()
+#15 {main}
+REQUEST_URI=/trackstar/index.php?r=project/adduser&id=1
+HTTP_REFERER=http://localhost/trackstar/index.php?r=project/adduser&id=1
+---
+2013/09/22 17:36:14 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\wamp\www\trackstar\protected\controllers\ProjectController.php:32
+Stack trace:
+#0 [internal function]: ProjectController->actionAdduser('1')
+#1 D:\wamp\www\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(ProjectController), Array)
+#2 D:\wamp\www\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProjectController), Object(ReflectionMethod), Array)
+#3 D:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\wamp\www\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 D:\wamp\www\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 D:\wamp\www\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 D:\wamp\www\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 D:\wamp\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 D:\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#10 D:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('adduser')
+#12 D:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('project/adduser')
+#13 D:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 D:\wamp\www\trackstar\index.php(17): CApplication->run()
+#15 {main}
+REQUEST_URI=/trackstar/index.php?r=project/adduser&id=1
+HTTP_REFERER=http://localhost/trackstar/index.php?r=project/adduser&id=1
+---
+2013/09/22 17:39:02 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\wamp\www\trackstar\protected\controllers\ProjectController.php:31
+Stack trace:
+#0 [internal function]: ProjectController->actionAdduser('1')
+#1 D:\wamp\www\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(ProjectController), Array)
+#2 D:\wamp\www\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProjectController), Object(ReflectionMethod), Array)
+#3 D:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\wamp\www\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 D:\wamp\www\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 D:\wamp\www\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 D:\wamp\www\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 D:\wamp\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 D:\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#10 D:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('adduser')
+#12 D:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('project/adduser')
+#13 D:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 D:\wamp\www\trackstar\index.php(17): CApplication->run()
+#15 {main}
+REQUEST_URI=/trackstar/index.php?r=project/adduser&id=1
+HTTP_REFERER=http://localhost/trackstar/index.php?r=project/adduser&id=1
+---
+2013/09/22 17:40:19 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\wamp\www\trackstar\protected\controllers\ProjectController.php:31
+Stack trace:
+#0 [internal function]: ProjectController->actionAdduser('1')
+#1 D:\wamp\www\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(ProjectController), Array)
+#2 D:\wamp\www\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProjectController), Object(ReflectionMethod), Array)
+#3 D:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\wamp\www\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 D:\wamp\www\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 D:\wamp\www\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 D:\wamp\www\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 D:\wamp\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 D:\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#10 D:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('adduser')
+#12 D:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('project/adduser')
+#13 D:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 D:\wamp\www\trackstar\index.php(17): CApplication->run()
+#15 {main}
+REQUEST_URI=/trackstar/index.php?r=project/adduser&id=1
+HTTP_REFERER=http://localhost/trackstar/index.php?r=project/adduser&id=1
+---
+2013/09/22 17:40:21 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\wamp\www\trackstar\protected\controllers\ProjectController.php:31
+Stack trace:
+#0 [internal function]: ProjectController->actionAdduser('1')
+#1 D:\wamp\www\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(ProjectController), Array)
+#2 D:\wamp\www\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProjectController), Object(ReflectionMethod), Array)
+#3 D:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\wamp\www\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 D:\wamp\www\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 D:\wamp\www\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 D:\wamp\www\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 D:\wamp\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 D:\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#10 D:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('adduser')
+#12 D:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('project/adduser')
+#13 D:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 D:\wamp\www\trackstar\index.php(17): CApplication->run()
+#15 {main}
+REQUEST_URI=/trackstar/index.php?r=project/adduser&id=1
+HTTP_REFERER=http://localhost/trackstar/index.php?r=project/adduser&id=1
+---
+2013/09/22 17:50:42 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.email" is not defined.' in D:\wamp\www\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\wamp\www\yii\framework\web\auth\CWebUser.php(146): CComponent->__get('email')
+#1 D:\wamp\www\yii\framework\web\auth\CWebUser.php(816): CWebUser->__get('email')
+#2 D:\wamp\www\trackstar\protected\controllers\ProjectController.php(29): CWebUser->checkAccess('createUser', Array)
+#3 [internal function]: ProjectController->actionAdduser('1')
+#4 D:\wamp\www\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(ProjectController), Array)
+#5 D:\wamp\www\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProjectController), Object(ReflectionMethod), Array)
+#6 D:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 D:\wamp\www\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#8 D:\wamp\www\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#9 D:\wamp\www\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#10 D:\wamp\www\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#11 D:\wamp\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#12 D:\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#13 D:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 D:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('adduser')
+#15 D:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('project/adduser')
+#16 D:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#17 D:\wamp\www\trackstar\index.php(17): CApplication->run()
+#18 {main}
+REQUEST_URI=/trackstar/index.php?r=project/adduser&id=1
+HTTP_REFERER=http://localhost/trackstar/index.php?r=project/adduser&id=1
+---
+2013/09/22 19:41:10 [error] [exception.CException] exception 'CException' with message 'Property "UserIdentity.id" is read only.' in D:\wamp\www\yii\framework\base\CComponent.php:170
+Stack trace:
+#0 D:\wamp\www\trackstar\protected\components\UserIdentity.php(27): CComponent->__set('id', '1')
+#1 D:\wamp\www\trackstar\protected\models\LoginForm.php(52): UserIdentity->authenticate()
+#2 D:\wamp\www\yii\framework\validators\CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#3 D:\wamp\www\yii\framework\validators\CValidator.php(213): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#4 D:\wamp\www\yii\framework\base\CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#5 D:\wamp\www\trackstar\protected\controllers\SiteController.php(94): CModel->validate()
+#6 D:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#7 D:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 D:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 D:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 D:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('login')
+#11 D:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#12 D:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 D:\wamp\www\trackstar\index.php(17): CApplication->run()
+#14 {main}
+REQUEST_URI=/trackstar/index.php?r=site/login
+HTTP_REFERER=http://localhost/trackstar/index.php?r=site/login
+---
+2013/09/22 19:43:20 [error] [exception.CException] exception 'CException' with message 'Property "UserIdentity.id" is read only.' in D:\wamp\www\yii\framework\base\CComponent.php:170
+Stack trace:
+#0 D:\wamp\www\trackstar\protected\components\UserIdentity.php(27): CComponent->__set('id', '1')
+#1 D:\wamp\www\trackstar\protected\models\LoginForm.php(52): UserIdentity->authenticate()
+#2 D:\wamp\www\yii\framework\validators\CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#3 D:\wamp\www\yii\framework\validators\CValidator.php(213): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#4 D:\wamp\www\yii\framework\base\CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#5 D:\wamp\www\trackstar\protected\controllers\SiteController.php(94): CModel->validate()
+#6 D:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#7 D:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 D:\wamp\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 D:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 D:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('login')
+#11 D:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#12 D:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 D:\wamp\www\trackstar\index.php(17): CApplication->run()
+#14 {main}
+REQUEST_URI=/trackstar/index.php?r=site/login
+HTTP_REFERER=http://localhost/trackstar/index.php?r=site/login
+---
+2013/09/22 19:45:12 [error] [php] Undefined variable: id (D:\wamp\www\yii\framework\web\auth\CWebUser.php:230)
+Stack trace:
+#0 D:\wamp\www\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#1 D:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 D:\wamp\www\yii\framework\web\CController.php(286): SiteController->runAction()
+#3 D:\wamp\www\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#4 D:\wamp\www\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#5 D:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 D:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 D:\wamp\www\trackstar\index.php(17): CWebApplication->run()
+REQUEST_URI=/trackstar/index.php?r=site/login
+in D:\wamp\www\trackstar\protected\models\LoginForm.php (71)
+in D:\wamp\www\trackstar\protected\controllers\SiteController.php (94)
+in D:\wamp\www\trackstar\index.php (17)
+2013/09/22 20:51:08 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\wamp\www\trackstar\protected\controllers\ProjectController.php:31
+Stack trace:
+#0 [internal function]: ProjectController->actionAdduser('1')
+#1 D:\wamp\www\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(ProjectController), Array)
+#2 D:\wamp\www\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProjectController), Object(ReflectionMethod), Array)
+#3 D:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\wamp\www\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 D:\wamp\www\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 D:\wamp\www\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 D:\wamp\www\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 D:\wamp\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 D:\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#10 D:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('adduser')
+#12 D:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('project/adduser')
+#13 D:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 D:\wamp\www\trackstar\index.php(17): CApplication->run()
+#15 {main}
+REQUEST_URI=/trackstar/index.php?r=project/adduser&id=1
+HTTP_REFERER=http://localhost/trackstar/index.php?r=project/view&id=1
+---
+2013/09/22 20:55:16 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in D:\wamp\www\trackstar\protected\controllers\ProjectController.php:31
+Stack trace:
+#0 [internal function]: ProjectController->actionAdduser('1')
+#1 D:\wamp\www\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(ProjectController), Array)
+#2 D:\wamp\www\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProjectController), Object(ReflectionMethod), Array)
+#3 D:\wamp\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\wamp\www\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 D:\wamp\www\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 D:\wamp\www\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 D:\wamp\www\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 D:\wamp\www\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 D:\wamp\www\yii\framework\web\CController.php(291): CFilterChain->run()
+#10 D:\wamp\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\wamp\www\yii\framework\web\CWebApplication.php(282): CController->run('adduser')
+#12 D:\wamp\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('project/adduser')
+#13 D:\wamp\www\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 D:\wamp\www\trackstar\index.php(17): CApplication->run()
+#15 {main}
+REQUEST_URI=/trackstar/index.php?r=project/adduser&id=1
+---
